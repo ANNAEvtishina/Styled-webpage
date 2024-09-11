@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  }
+  .header {
+  background-color: #edb1b1;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  }
+  .nav{background-color: aquamarine;
+
+  }
+  .nav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  .nav__link {
+  color: #090000;
+  text-decoration: none;
+  padding: 10px;
+
+  }
+  .nav__link:hover {
+  color: #9b81cf;
+  }
+  .nav__link::before {
+    content: "🌱";
+  }
+  
+  .content {
+  padding: 20px;
+  background-color: #7ecf91;
+  text-align: center;
+  }
+  
+  .footer {
+  background-color: #96bbd1;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+   
+  .gallery__img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
